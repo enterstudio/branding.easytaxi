@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include minimal/head.html %}
+
+  <body>
+    <div class="wrapper">
+
+    {% include minimal/header.html %}
+
+    <section>
+
+    <div class="page-content">
+      <!-- <div class="wrapper"> -->
+        {{ content }}
+      <!-- </div> -->
+    </div>
+
+    </section>
+
+    {% include minimal/footer.html %}
+
+    </div>
+    <script src="assets/js/cdn.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script type="text/javascript">
+      zip.workerScriptsPath = "/cdn/";
+    </script>
+  </body>
+
+</html>

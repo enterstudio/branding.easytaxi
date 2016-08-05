@@ -1,0 +1,144 @@
+---
+layout: minimal/post
+title:  "Logo"
+date:   2016-07-27 13:49:26 -0300
+categories:  logo
+---
+Estas diretrizes de identidade visual ajudarão a determinar a melhor maneira de usar o nosso logotipo. Clique no tipo de arquivo para baixar qualquer versão individual. <br><br>
+
+
+
+<div id="our-logo">
+
+<div class="l-box" style="margin-bottom:50px">
+    <h3>
+        Há quatro variações disponíveis do nosso logotipo
+    </h3>
+</div>
+
+<div class="pure-g">
+    <div class="pure-u-1">
+        <div>
+            <div class="subsection-highlight logotype-1 pure-pull-start">1</div>
+            <p>
+                <strong>Logotipo Horizontal</strong><br>
+                Usado sempre que possível
+            </p>
+        </div>
+    </div>
+    <div class="pure-u-1 pure-box logotype logo-container border" style="margin-bottom:50px">
+        <div class="text-center">
+            <img class="img" border="0" src="{{ site.googleDrive.logo-horizontal | prepend: site.googleDrive.url }}" title="">
+            <div class="subsection-highlight pure-pull-start">1</div>
+            <div class="dl-link">
+                <div class="clipboard">
+                    <button class="clipb" title="Copiar endereço da imagem" id="sharecode" data-clipboard-text="{{ site.googleDrive.logo-horizontal | prepend: site.googleDrive.url }}">
+                        <i class="ico ion-link"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center download">
+            <span class="ico ico-download">Download:</span>
+            <a href="{{ site.googleDrive.logo-horizontal | prepend: site.googleDrive.url }}" download>PNG <span>(10 KB)</span></a>
+            <!-- <a href="javascript:void(0);">AI <span>(10 KB)</span></a> -->
+        </div>
+    </div>
+</div>
+
+<div class="pure-g pure-box">
+    <div class="pure-u-1-2">
+        <div>
+            <div class="subsection-highlight pure-pull-start">2</div>
+            <p>
+                <strong>Logotipo Horizontal versão 2</strong><br>
+                Usado em interfaces com contraste escuro
+            </p>
+        </div>
+    </div>
+    <div class="pure-u-1-2">
+        <div class="transparent transparent-dark logotype logotype-2 logo-container">
+            <img border="0" src="{{ site.googleDrive.logo-horizontal-v2' | prepend: site.googleDrive.url }}" title="">
+            <div class="subsection-highlight pure-pull-start">2</div>
+            <div class="dl-link">
+                <div class="clipboard">
+                    <button class="clipb" title="Copiar endereço da imagem" id="sharecode" data-clipboard-text="{{ site.googleDrive.logo-horizontal-v2 | prepend: site.googleDrive.url }}">
+                        <i class="ico ion-link"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center download">
+            <span class="ico ico-download">Download:</span>
+            <a href="{{ site.googleDrive.logo-horizontal-v2 | prepend: site.googleDrive.url }}" download>PNG <span>(31 KB)</span></a>
+            <!-- <a href="#">AI <span>(10 KB)</span></a> -->
+        </div>
+        <hr>
+    </div>
+</div>
+
+<div class="pure-g pure-box">
+    <div class="pure-u-1-2">
+        <div>
+            <div class="subsection-highlight pure-pull-start">3</div>
+            <p>
+                <strong>Logotipo Vertical</strong><br>
+                Usado em interfaces de espaço limitado
+            </p>
+        </div>
+    </div>
+    <div class="pure-u-1-2">
+        <div class="transparent logotype logotype-3 logo-container">
+            <img class="img vertical" border="0" src="{{ site.googleDrive.logo-vertical | prepend: site.googleDrive.url }}" title="">
+            <div class="subsection-highlight pure-pull-start">3</div>
+            <div class="dl-link">
+                <div class="clipboard">
+                    <button class="clipb" title="Copiar endereço da imagem" id="sharecode" data-clipboard-text="{{ site.googleDrive.logo-vertical | prepend: site.googleDrive.url }}">
+                        <i class="ico ion-link"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center download">
+            <span class="ico ico-download">Download:</span>
+            <a href="{{ site.googleDrive.logo-vertical | prepend: site.googleDrive.url }}" download>PNG <span>(11 KB)</span></a>
+            <!-- <a href="#">AI <span>(10 KB)</span></a> -->
+        </div>
+        <hr>
+    </div>
+</div>
+
+<div class="pure-g pure-box">
+    <div class="pure-u-1-2">
+        <div>
+            <div class="subsection-highlight pure-pull-start">4</div>
+            <p>
+                <strong>Logotipo Vertical versão 2</strong><br>
+                Usado em interfaces com espaço limitado e contraste escuro
+            </p>
+        </div>
+    </div>
+    <div class="pure-u-1-2">
+        <div class="transparent transparent-dark logotype logotype-4 logo-container">
+            <img class="img vertical" border="0" src="{{ site.googleDrive.logo-vertical-v2 | prepend: site.googleDrive.url }}" title="">
+            <div class="subsection-highlight pure-pull-start">4</div>
+            <div class="dl-link">
+                <div class="clipboard">
+                    <button class="clipb" title="Copiar endereço da imagem" id="sharecode" data-clipboard-text="{{ site.googleDrive.logo-vertical-v2 | prepend: site.googleDrive.url }}">
+                        <i class="ico ion-link"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center download">
+            <span class="ico ico-download">Download:</span>
+            <a href="{{ site.googleDrive.logo-vertical-v2 | prepend: site.googleDrive.url }}" download>PNG <span>(11 KB)</span></a>
+            <!-- <a href="#">AI <span>(10 KB)</span></a> -->
+        </div>
+        <hr>
+    </div>
+</div>
+
+<!--
+[driveUrl]: https://drive.google.com/uc?export=view&id=
+[logo-horizontal]: 0B-xFURUZ_y9kTWdmRl8yN25KUWM -->

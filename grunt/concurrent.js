@@ -1,0 +1,25 @@
+module.exports = {
+    mkdir:[
+        'mkdir'
+    ],
+    'curl':[
+        'curl'
+    ],
+    levin_zip:[
+        'levin_zip'
+    ],
+    zip:[
+        'zip'
+    ],
+    css:[
+        'cssmin',
+        'notify:css'
+    ],
+    js:[
+        'uglify',
+        'notify:js'
+    ],
+    watch:[
+        'watch'
+    ]
+}

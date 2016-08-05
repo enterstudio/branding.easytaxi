@@ -1,0 +1,33 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Easy Branding
+email: your-email@domain.com
+description: # this means to ignore newlines until "baseurl:"
+  # Find guides and downloads to help you get started with the Easy brand, from logos and color to type and icons.
+  Encontre guias e downloads para ajudar você a usar a marca Easy, logotipos e cores para fontes e ícones.
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# driveUrl: 'https://drive.google.com/uc?export=view&id='
+googleDrive:
+    url: 'https://drive.google.com/uc?export=view&id='
+    logo-vertical: '0B-xFURUZ_y9kZXhTbzdYMnk4RTg'
+    logo-vertical-v2: '0B-xFURUZ_y9kM2dFQUp2c1c3eUk'
+    logo-horizontal: '0B-xFURUZ_y9kUXBydVpmeE1zenM'
+    logo-horizontal-v2: '0B-xFURUZ_y9kTWdmRl8yN25KUWM'
+
+
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+theme: minimal
+
