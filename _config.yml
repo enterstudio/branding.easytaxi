@@ -22,7 +22,7 @@ googleDrive:
     logo-horizontal-v2: '0B-xFURUZ_y9kTWdmRl8yN25KUWM'
 
 
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
