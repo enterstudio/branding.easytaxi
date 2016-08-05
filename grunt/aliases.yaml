@@ -1,0 +1,32 @@
+default:
+  description: 'Default (production) build'
+  tasks:
+    - prod
+
+init:
+  description: 'Dev first build'
+  tasks:
+    - 'concurrent:mkdir'
+    - 'concurrent:curl'
+
+minifyles:
+  description: 'CSS/JS minification'
+  tasks:
+    - 'concurrent:js'
+
+hashfiles:
+  description: 'Add hashes and rename files'
+  tasks:
+    - 'concurrent:hashres'
+
+dev:
+  description: 'Development build'
+  tasks:
+    - minifyles
+    - 'concurrent:watch'
+
+prod:
+  description: 'Production build'
+  tasks:
+    - init
+    - minifyles
